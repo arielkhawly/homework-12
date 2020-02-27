@@ -13,7 +13,7 @@ Design the following database schema containing three tables:
   * **id** - INT PRIMARY KEY
   * **name** - VARCHAR(30) to hold department name
 
-* **role**:
+* **job**:
 
   * **id** - INT PRIMARY KEY
   * **title** -  VARCHAR(30) to hold role title
