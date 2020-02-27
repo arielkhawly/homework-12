@@ -1,11 +1,9 @@
 const express = require("express");
-const exphbs = require("express-handlebars");
 const mysql = require("mysql");
 
 let app = express();
 
-// Set the port of our application
-// process.env.PORT lets the port be set by Heroku
+
 let PORT = process.env.PORT || 8080;
 
 let connection = mysql.createConnection({
