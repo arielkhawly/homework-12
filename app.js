@@ -3,7 +3,6 @@ const mysql = require("mysql");
 
 let app = express();
 
-
 let PORT = process.env.PORT || 8080;
 
 let connection = mysql.createConnection({
